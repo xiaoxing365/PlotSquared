@@ -1,5 +1,5 @@
 name: Build PR
-on: [ pull_request ]
+on: [  ]
 jobs:
   build_pr:
     runs-on: ${{ matrix.os }}
