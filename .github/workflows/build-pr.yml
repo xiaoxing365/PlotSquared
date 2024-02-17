@@ -1,5 +1,8 @@
-name: Build PR
-on: [  ]
+name: Build main
+on:
+  push:
+    branches:
+      - main
 jobs:
   build_pr:
     runs-on: ${{ matrix.os }}
