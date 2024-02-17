@@ -19,3 +19,7 @@ jobs:
           java-version: 17
       - name: Clean Build
         run: ./gradlew clean build
+      - name: Upload jars
+        uses: actions/upload-artifact@v3
+        with:
+          path: build/libs/
